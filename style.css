@@ -1,0 +1,144 @@
+body{
+	font-family: 'Kufam', cursive;
+	margin: 0;
+}
+
+a {
+	background-color: green;
+	color:white;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+a:hover {
+	opacity: 0.9;
+	background-color: red;
+}
+
+.banner {
+	text-align: left;
+	background: url(images/image1.jpg);
+	animation: animback 20s linear infinite;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px;
+}
+
+
+@keyframes animback {
+	33% {background: url(images/image5.jpg)}
+	66% {background: url(images/image6.jpg)}
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.les-paniers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.les-paniers img {
+	grid-template-columns: 1fr 1fr 1fr;
+	height: auto;
+	width: 100%;
+	border-radius: 4px
+}
+
+.panier {
+  background-color: white;
+  border-color: grey;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  padding: 3px;
+  border-radius: 4px;
+  margin: 10px;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container img {
+	grid-template-columns: 1fr 1fr 1fr;
+	height: auto;
+	width: 100%;
+}
+
+.cards-container {
+  background-color: white;
+  border-color: grey;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  padding: 3px;
+  border-radius: 4px;
+  margin: 10px;
+  text-align: center;
+}
+
+
+.banner h1 {
+	color: white;
+}
+
+.banner p {
+	color: black;
+	font-size: 20px;
+}
+
+.cards-container {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cards-campus {
+	background-color: white;
+	border-color: grey;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	padding: 20px;
+	border-radius: 4px;
+	flex-grow: 1;
+}
+
+.cards-campus img {
+	width: 100%;
+	height: 180px;
+	border-radius: 5px;
+	object-fit: cover;
+}
+
+.bouton-voirplus {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.footer {
+	background-color: green;
+	padding: 50px;
+	color: white;
+	margin-bottom: 3px;
+}
+
+.merci {
+	background-color: #C80032;
+	color: white;
+	margin: auto;
+	padding: auto;
+
+}
+
+.footer img {
+  width: 10%;
+  height: auto;%;
+}
+
+ul {
+list-style:none;
+margin-left:0;
+padding-left:0;
+}
